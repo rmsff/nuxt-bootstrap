@@ -13,6 +13,10 @@
 
 <script>
 export default {
+	// Если нужно получить данные и сохранить их в дата компонента, то asyncData()
+	// если нет то fetch()
+	// Ещё есть nuxtServerInit().
+
 	// async asyncData(ctx) {
 	// 	const { store, error } = ctx;
 	// 	try {
