@@ -9,14 +9,6 @@
 <script>
 export default {
 	layout: 'empty',
-	methods: {
-		getPrevPath() {
-			const paths = this.$route.path.split('/').filter((item) => item !== '');
-			paths.pop();
-			const prevPath = '/' + paths.join('/');
-			return prevPath;
-		},
-	},
 };
 </script>
 <style scoped>
